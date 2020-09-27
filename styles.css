@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #40514E;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  color: #64958f;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  color: #64958f;
+  font-weight:normal;
+}
+h3 {
+  color: #065c6f;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+  color: #065c6f;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: none;
+  border-top-style: dotted;
+  border-top-width:5px;
+  width:3%;
+  border-top-color: #faf3dd;
+  margin: 5rem auto;
+}
+
+.top-container {
+  background-color: #faf3dd;
+  padding: 1rem;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container{
+  background-color: #64958f;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.intro {
+  padding-bottom: 2.5rem;
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  margin: 1.5rem auto 5rem;
+  width: 30%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.mountain {
+  background-position: center;
+  height:25rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18rem;
+  top: 3.3rem;
+  height: 8.125rem;
+  width: auto;
+}
+.middle-cloud {
+  position: absolute;
+  left: 18rem;
+  height: 8.125rem;
+  top: 12.5rem;
+  width: auto;
+}
+.bottom-cloud {
+  position: absolute;
+  right: 27rem;
+  height: 8.125rem;
+  bottom: 16rem;
+  width: auto;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;
+}
+.marketing-img {
+  width: 25%;
+  float: right;
+  margin-left:1.875rem;
+}
+.myButton {
+	box-shadow: 4px 6px 17px -5px #065c6f;
+	background-color:#065c6f;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#EAF6F6;
+	font-family:Raleway;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 0 0 #065c6f;
+}
+.myButton:hover {
+	background-color:#64958f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
